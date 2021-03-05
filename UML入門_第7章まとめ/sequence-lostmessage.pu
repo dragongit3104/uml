@@ -1,0 +1,9 @@
+@startuml 
+participant "ライフラインA" as A
+A->>o] : メッセージ
+note right of A
+↑ロストメッセージは
+受信側を黒円とした
+頭に矢印が付いた実線で表記する
+end note
+@enduml
