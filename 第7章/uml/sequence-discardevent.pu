@@ -1,0 +1,7 @@
+@startuml
+
+create ライフラインA
+activate ライフラインA
+destroy ライフラインA
+
+@enduml

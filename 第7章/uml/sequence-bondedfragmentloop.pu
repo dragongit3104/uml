@@ -1,0 +1,7 @@
+@startuml
+alt loop(最小値, 最大値)
+note left ライフラインA: ★相互作用オペレーターの例★\nloop(3,10)→最小で3回、最大で10回繰り返す\nloop(5)→5回繰り返す\nloop(1,*)→1回以上繰り返す\nloop→無限ループ
+  ライフラインA --> ライフラインB 
+end
+
+@enduml

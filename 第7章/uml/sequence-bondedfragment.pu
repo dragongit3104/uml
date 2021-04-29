@@ -1,0 +1,9 @@
+@startuml
+alt 条件
+note left ライフラインA: 「alt」→相互作用オペレータ\n［条件]や[else]→相互作用制約
+  ライフラインA --> ライフラインB 
+else else
+  ライフラインA --> ライフラインB
+end
+
+@enduml

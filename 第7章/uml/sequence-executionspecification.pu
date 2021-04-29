@@ -1,0 +1,13 @@
+@startuml
+title 実行指定
+activate ライフラインA
+ライフラインA -> ライフラインB: メッセージ1
+activate ライフラインB
+ライフラインB -> ライフラインC: メッセージ2
+activate ライフラインC
+deactivate ライフラインC
+ライフラインB -> ライフラインC: メッセージ3
+activate ライフラインC
+deactivate ライフラインC
+deactivate ライフラインB
+@enduml
