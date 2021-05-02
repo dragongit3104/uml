@@ -1,0 +1,9 @@
+@startuml
+
+par
+  ライフラインA --> ライフラインB
+else
+  ライフラインA --> ライフラインB
+end
+
+@enduml

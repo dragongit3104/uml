@@ -1,0 +1,7 @@
+@startuml
+
+critical
+  ライフラインA --> ライフラインB
+end
+
+@enduml
