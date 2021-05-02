@@ -1,0 +1,9 @@
+@startuml
+
+alt 条件1
+  ライフラインA --> ライフラインB 
+else 条件2
+  ライフラインA --> ライフラインB
+end
+
+@enduml

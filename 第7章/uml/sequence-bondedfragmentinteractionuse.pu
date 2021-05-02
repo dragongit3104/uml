@@ -1,0 +1,5 @@
+@startuml
+
+ref over ライフラインA, ライフラインB : 相互作用名
+
+@enduml

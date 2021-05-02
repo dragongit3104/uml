@@ -1,0 +1,10 @@
+@startuml 
+participant "ライフラインA" as A
+[o->> A : メッセージ
+note left of A
+↑ファウンドメッセージは
+送信側を黒円とした
+頭に矢印が付いた実線で表記する
+(PlantUMLには黒円は実装されていない)
+end note
+@enduml

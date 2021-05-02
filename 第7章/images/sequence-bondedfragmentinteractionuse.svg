@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="153px" preserveAspectRatio="none" style="width:247px;height:153px;" version="1.1" viewBox="0 0 247 153" width="247px" zoomAndPan="magnify"><defs><filter height="300%" id="f1tega2sanc9py" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="60" x2="60" y1="41.6094" y2="109.3125"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="181" x2="181" y1="41.6094" y2="109.3125"/><rect fill="#FEFECE" filter="url(#f1tega2sanc9py)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="107" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="12" y="26.5332">ライフラインA</text><rect fill="#FEFECE" filter="url(#f1tega2sanc9py)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="107" x="5" y="108.3125"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="12" y="129.8457">ライフラインA</text><rect fill="#FEFECE" filter="url(#f1tega2sanc9py)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="107" x="126" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="133" y="26.5332">ライフラインB</text><rect fill="#FEFECE" filter="url(#f1tega2sanc9py)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="107" x="126" y="108.3125"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="133" y="129.8457">ライフラインB</text><rect fill="#FFFFFF" filter="url(#f1tega2sanc9py)" height="42.7031" style="stroke:#000000;stroke-width:2.0;" width="234" x="2" y="51.6094"/><polygon fill="#EEEEEE" points="2,51.6094,64,51.6094,64,59.6094,54,69.6094,2,69.6094,2,51.6094" style="stroke:#000000;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="17" x="15" y="67.1045">ref</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="65" x="88.5" y="87.1045">相互作用名</text><!--MD5=[a5e9c2bc144898522bc87ab72d9f92bd]
+@startuml
+
+ref over ライフラインA, ライフラインB : 相互作用名
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 19:25:05 JST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS932
+Language: ja
+Country: JP
+--></g></svg>

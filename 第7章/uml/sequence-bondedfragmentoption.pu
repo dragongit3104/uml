@@ -1,0 +1,7 @@
+@startuml
+
+opt 条件
+  ライフラインA --> ライフラインB 
+end
+
+@enduml
