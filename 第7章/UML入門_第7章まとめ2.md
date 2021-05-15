@@ -6,7 +6,7 @@
 ・送信側が他のシーケンス図に存在する  
 ・特に送信側のライフラインを表記する必要がない
 
-![UML描画(ファウンドメッセージ)](./sequence-foundmessage.svg)
+![UML描画(ファウンドメッセージ)](images/sequence-foundmessage.svg)
 
 ## ・ロストメッセージ
 受信側のライフラインを図中に明示しないメッセージ  
@@ -16,4 +16,4 @@
 <br />
 ・特に受信側のライフラインを表記する必要がない
 
-![UML描画(ロストメッセージ)](./sequence-lostmessage.svg)
+![UML描画(ロストメッセージ)](images/sequence-lostmessage.svg)
