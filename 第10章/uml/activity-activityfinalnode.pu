@@ -1,0 +1,6 @@
+@startuml
+
+:アクション;
+stop
+
+@enduml

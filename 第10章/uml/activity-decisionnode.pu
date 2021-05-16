@@ -1,0 +1,11 @@
+@startuml
+
+start
+
+if () then ([条件A])
+else ([条件B])
+endif
+
+stop
+
+@enduml

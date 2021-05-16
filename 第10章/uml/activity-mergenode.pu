@@ -1,0 +1,11 @@
+@startuml
+
+start
+fork
+:アクションA;
+fork again
+:アクションB;
+end merge
+stop
+
+@enduml
