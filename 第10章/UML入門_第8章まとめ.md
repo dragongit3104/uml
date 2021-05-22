@@ -44,6 +44,8 @@
 別々のフローが合流して1つのフローになることを表現する要素  
 ![UML描画(マージノード)](images/activity-mergenode.svg)
 
+<div style="page-break-before:always"></div>  
+
 ## ・オブジェクトノードとオブジェクトフロー  
 &nbsp;&nbsp;オブジェクトノード  
 &nbsp;&nbsp;&nbsp;&nbsp;アクティビティで取り扱うオブジェクトを表現する要素  
@@ -52,3 +54,36 @@
 &nbsp;&nbsp;&nbsp;&nbsp;オブジェクトの入出力関係を表現する要素  
 
 ![UML描画(オブジェクトノードとオブジェクトフロー)](images/activity-objectnodeandflow.svg)
+
+<div style="page-break-before:always"></div>  
+
+## ・フォークノードとジョインノード  
+&nbsp;&nbsp;フォークノード  
+&nbsp;&nbsp;&nbsp;&nbsp;複数のアクションを並行して実行することを表現する要素  
+&nbsp;&nbsp;&nbsp;&nbsp;1つの入力フローに対して複数の出力のフローを表記  
+
+&nbsp;&nbsp;ジョインノード  
+&nbsp;&nbsp;&nbsp;&nbsp;複数の入力フローに対して1つの出力フローがあることを表現する要素  
+
+![UML描画(フォークノードとジョインノード)](images/activity-forkandjoinnode.svg)
+
+<div style="page-break-before:always"></div>  
+
+## ・イベント受信アクション  
+外部からのイベント受信を表現する要素  
+![UML描画(イベント受信アクション)](images/activity-accepteventaction.svg)
+
+## ・シグナル送信アクション  
+アクティビティから外部にシグナルを送信する場合に、シグナルの送信を表現する要素  
+![UML描画(シグナル送信アクション)](images/activity-sendsignalaction.svg)
+
+## ・パーティション  
+アクティビティ内の複数のアクションを役割ごとに分けて表記する要素  
+横向きでの表記も可  
+![UML描画(パーティション)](images/activity-partition.svg)  
+
+## ・アクティビティ図の注意点
+概念的なアクションと詳細なアクションを混合して表現したり、  
+多くのデシジョンノードやマージノードを図中に登場させると描くのも読むのも大変な労力となる  
+図の一部だけを特に具体的に、あるいは抽象的に表現してしまうと、読み手の混乱を招く  
+1つの図で表現する物事のレベルを合わせる必要がある  

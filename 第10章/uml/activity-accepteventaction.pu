@@ -1,0 +1,9 @@
+@startuml
+
+|Client|
+start
+|Server|
+: アクション<
+end
+
+@enduml

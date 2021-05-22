@@ -1,0 +1,7 @@
+@startuml
+
+  partition パーティション名 {
+   
+  }
+
+@enduml
