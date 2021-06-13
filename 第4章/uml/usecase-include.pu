@@ -1,0 +1,12 @@
+@startuml
+
+left to right direction
+usecase "本人認証を行う" as actPersonalAuthentication
+usecase "経費を登録する" as registerExpenses
+usecase "経費を承認/却下する" as approveOrRejectedExpenses
+/'Include: <., .>, <.., or ..>'/
+registerExpenses ..> actPersonalAuthentication  : <<include>>
+/'Extend: <., .>, <.., or ..>'/
+ approveOrRejectedExpenses ..> actPersonalAuthentication : <<extend>>
+
+@enduml

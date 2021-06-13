@@ -1,0 +1,17 @@
+@startuml
+
+left to right direction
+usecase UC1 as "
+顧客を検索する
+--
+extension points
+出力指定
+”
+usecase UC2 as "検索結果をファイルに出力する”  
+
+note "Condition:{ユーザが出力指定で「ファイル」を選択した場合}\r\nExtension point:出力指定" as note
+
+note .. UC2
+UC1 <.. note : <<extend>>
+
+@enduml

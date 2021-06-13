@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="109px" preserveAspectRatio="none" style="width:964px;height:109px;" version="1.1" viewBox="0 0 964 109" width="964px" zoomAndPan="magnify"><defs><filter height="300%" id="fuqpnwg13qf3d" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><ellipse cx="88.9062" cy="51.6364" fill="#FEFECE" filter="url(#fuqpnwg13qf3d)" rx="82.9062" ry="45.6364" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="38.9062" y="33.7555">顧客を検索する</text><line style="stroke:#A80036;stroke-width:1.0;" x1="11.4837" x2="166.3287" y1="36.8317" y2="36.8317"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="36.9062" y="55.3649">extension points</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="59.9062" y="72.9742">出力指定</text><ellipse cx="836.9339" cy="51.5868" fill="#FEFECE" filter="url(#fuqpnwg13qf3d)" rx="115.9339" ry="25.5868" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="738.9339" y="55.3153">検索結果をファイルに出力する</text><path d="M287,30 L287,72.7031 L660,72.7031 L660,40 L650,30 L287,30 " fill="#FBFB77" filter="url(#fuqpnwg13qf3d)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M650,30 L650,40 L660,40 L650,30 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="352" x="293" y="48.4951">Condition:{ユーザが出力指定で「ファイル」を選択した場合}</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="146" x="293" y="64.8467">Extension point:出力指定</text><!--MD5=[afe69662a2a4b474282586bc38ed1030]
+link note to UC2--><path d="M660.02,51.5 C680.64,51.5 701.19,51.5 720.58,51.5 " fill="none" id="note-UC2" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[ab02859c2d697904a8e83ebcc040118b]
+reverse link UC1 to note--><path d="M177.26,51.5 C209.99,51.5 248.56,51.5 286.83,51.5 " fill="none" id="UC1-backto-note" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="172.06,51.5,181.06,55.5,177.06,51.5,181.06,47.5,172.06,51.5" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="203" y="47.9951">«extend»</text><!--MD5=[228bea2b8c2ee47d669aa499b5c57fd0]
+@startuml
+
+left to right direction
+usecase UC1 as "
+顧客を検索する
+- -
+extension points
+出力指定
+”
+usecase UC2 as "検索結果をファイルに出力する”  
+
+note "Condition:{ユーザが出力指定で「ファイル」を選択した場合}\r\nExtension point:出力指定" as note
+
+note .. UC2
+UC1 <.. note : <<extend>>
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 19:25:05 JST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS932
+Language: ja
+Country: JP
+--></g></svg>
