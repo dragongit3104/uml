@@ -1,0 +1,10 @@
+@startuml
+
+left to right direction
+actor ユーザー
+rectangle システムA {
+  ユーザー --> (アカウントを作る)
+  ユーザー --> (ログインする)
+}
+
+@enduml

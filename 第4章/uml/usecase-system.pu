@@ -1,0 +1,11 @@
+@startuml
+
+'Adapted from https://github.com/Crashedmind/PlantUML-opensecurityarchitecture-icons/blob/master/all
+scale .5
+!include <osa/desktop/desktop>
+
+rectangle "" {
+    rectangle "会計システム:\n <$desktop>"
+}
+
+@enduml
