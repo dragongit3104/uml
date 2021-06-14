@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="235px" preserveAspectRatio="none" style="width:174px;height:235px;" version="1.1" viewBox="0 0 174 235" width="174px" zoomAndPan="magnify"><defs><filter height="300%" id="f189z84k2tarf5" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[8cc71935db89d46200c007e545a8541d]
+entity 社員--><ellipse cx="83" cy="14" fill="#FEFECE" filter="url(#f189z84k2tarf5)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M83,22 L83,49 M70,30 L96,30 M83,49 L70,64 M83,49 L96,64 " fill="none" filter="url(#f189z84k2tarf5)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="69" y="84.0332">社員</text><!--MD5=[c15854341901bbc1144078439cc53726]
+entity 一般社員--><ellipse cx="34" cy="157" fill="#FEFECE" filter="url(#f189z84k2tarf5)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M34,165 L34,192 M21,173 L47,173 M34,192 L21,207 M34,192 L47,207 " fill="none" filter="url(#f189z84k2tarf5)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="6" y="227.0332">一般社員</text><!--MD5=[a6446bbaff32680892347494e17ac8bd]
+entity マネージャ--><ellipse cx="132" cy="157" fill="#FEFECE" filter="url(#f189z84k2tarf5)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M132,165 L132,192 M119,173 L145,173 M132,192 L119,207 M132,192 L145,207 " fill="none" filter="url(#f189z84k2tarf5)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="97" y="227.0332">マネージャ</text><!--MD5=[496c58b0984d45fb67fd52cf503787a9]
+reverse link 社員 to 一般社員--><path d="M62.13,107.06 C57.41,120.64 52.51,134.75 48.14,147.31 " fill="none" id="社員-backto-一般社員" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="55.65,104.38,68.83,87.78,68.87,108.97,55.65,104.38" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[604eee59e05367b278e95b6d926c2e80]
+reverse link 社員 to マネージャ--><path d="M103.87,107.06 C108.59,120.64 113.49,134.75 117.86,147.31 " fill="none" id="社員-backto-マネージャ" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="97.13,108.97,97.17,87.78,110.35,104.38,97.13,108.97" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ff296e6a2080e7011af84623c58220ad]
+@startuml
+
+' 日本語だとイタリック体にならない
+' 英語だとイタリック体になる
+:社員: <|- - :一般社員:
+:社員: <|- - :マネージャ:
+
+@enduml
+
+@startuml
+
+:社員: <|- - :一般社員:
+:社員: <|- - :マネージャ:
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 19:25:05 JST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS932
+Language: ja
+Country: JP
+--></g></svg>

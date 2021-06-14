@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="153px" preserveAspectRatio="none" style="width:382px;height:153px;" version="1.1" viewBox="0 0 382 153" width="382px" zoomAndPan="magnify"><defs><filter height="300%" id="f1hbbztxxn2ji1" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><ellipse cx="179.7427" cy="23.1485" fill="#FEFECE" filter="url(#f1hbbztxxn2ji1)" rx="73.7427" ry="17.1485" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="98" x="127.7427" y="27.6651">顧客を検索する</text><ellipse cx="79.7427" cy="120.6485" fill="#FEFECE" filter="url(#f1hbbztxxn2ji1)" rx="73.7427" ry="17.1485" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="27.7427" y="125.1651">名前で検索する</text><ellipse cx="279.3297" cy="120.5659" fill="#FEFECE" filter="url(#f1hbbztxxn2ji1)" rx="90.8297" ry="20.5659" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="209.3297" y="124.2945">顧客コードで検索する</text><!--MD5=[af8f5dcc68dd2e05c983be419a2813a9]
+reverse link //顧客を検索する// to 名前で検索する--><path d="M148.38,53.72 C131.07,70.25 110.23,90.15 96.04,103.71 " fill="none" id="//顧客を検索する//-backto-名前で検索する" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="143.69,48.52,162.99,39.77,153.36,58.65,143.69,48.52" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[dd5d687d2727f1db5ad2f3cd7bfc6597]
+reverse link //顧客を検索する// to 顧客コードで検索する--><path d="M210.66,53.76 C226.61,68.99 245.54,87.07 259.52,100.41 " fill="none" id="//顧客を検索する//-backto-顧客コードで検索する" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="205.64,58.65,196.01,39.77,215.31,48.52,205.64,58.65" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d878e506bd5aa7272a35ce65e418d9d4]
+@startuml
+
+' 日本語だとイタリック体にならない
+' 英語だとイタリック体になる
+(//顧客を検索する//) <|- - (名前で検索する)
+(//顧客を検索する//) <|- - (顧客コードで検索する)
+
+@enduml
+
+@startuml
+
+(//顧客を検索する//) <|- - (名前で検索する)
+(//顧客を検索する//) <|- - (顧客コードで検索する)
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 19:25:05 JST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS932
+Language: ja
+Country: JP
+--></g></svg>
